@@ -3,6 +3,8 @@
  *
  *
  * Copyright (c) 2014 Enrique Moreno Tent
+ * E-mail: enriquemorenotent@gmail.com
+ * URL: http://enriquemorenotent.com
  * Licensed under the MIT license.
  */
 
@@ -10,10 +12,7 @@
 
 module.exports = function(grunt) {
 
-	// Please see the Grunt documentation for more information regarding task
-	// creation: http://gruntjs.com/creating-tasks
-
-	grunt.registerTask('ini-file', 'for the lulz', function(key, newValue) {
+	grunt.registerTask('ini-file', 'Changing values to an INI file', function(key, newValue) {
 
 		if (arguments.length !== 2) {
 			grunt.log.warn("Missing arguments");
