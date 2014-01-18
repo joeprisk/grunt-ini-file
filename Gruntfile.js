@@ -34,9 +34,10 @@ module.exports = function(grunt) {
 		"ini-file": {
 			mitest:{
 				file: "tasks/test.ini",
-				key: "one",
-				value: "uno"
-				
+				values: {
+					"one": "uno",
+					"two": "dos"
+				}
 			}
 		},
 
