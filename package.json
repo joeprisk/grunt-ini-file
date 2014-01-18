@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gruntjs/grunt-ini-file.git"
+    "url": "git://github.com/enriquemorenotent/grunt-ini-file.git"
   },
   "bugs": {
     "url": "https://github.com/enriquemorenotent/grunt-ini-file/issues"
