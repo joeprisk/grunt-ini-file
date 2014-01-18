@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 			return false;
 		}
 
-		var file = "tasks/test.ini"
+		var file = "tasks/test.ini";
 		if (!grunt.file.exists(file)) {
 			grunt.log.warn("File " + file + " does not exist");
 			return false;
