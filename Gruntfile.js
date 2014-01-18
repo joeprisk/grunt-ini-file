@@ -31,23 +31,13 @@ module.exports = function(grunt) {
 		},
 
 		// Configuration to be run (and then tested).
-		ini_file: {
-			default_options: {
-				options: {
-				},
-				files: {
-					'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123'],
-				},
-			},
-			custom_options: {
-				options: {
-					separator: ': ',
-					punctuation: ' !!!',
-				},
-				files: {
-					'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123'],
-				},
-			},
+		"ini-file": {
+			mitest:{
+				file: "tasks/test.ini",
+				key: "one",
+				value: "uno"
+				
+			}
 		},
 
 		// Unit tests.
@@ -67,7 +57,7 @@ module.exports = function(grunt) {
 
 	// Whenever the "test" task is run, first clean the "tmp" dir, then run this
 	// plugin's task(s), then test the result.
-	grunt.registerTask('test', ['clean', 'ini_file', 'nodeunit']);
+	grunt.registerTask('test', ['clean', 'ini-file', 'nodeunit']);
 
 	// By default, lint and run all tests.
 	grunt.registerTask('default', ['jshint', 'test']);
