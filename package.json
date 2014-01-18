@@ -1,8 +1,8 @@
 {
   "name": "grunt-ini-file",
-  "description": "Handling ini files",
+  "description": "Handling INI files",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://github.com/enriquemorenotent/grunt-ini-file",
   "author": {
     "name": "Enrique Moreno Tent",
     "email": "enriquemorenotent@gmail.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "git://github.com/gruntjs/grunt-ini-file.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/enriquemorenotent/grunt-ini-file/issues"
   },
   "licenses": [
     {
