@@ -26,7 +26,7 @@ In your project's Gruntfile, add a section named `ini-file` to the data object p
 grunt.initConfig({
     "ini-file": {
         file: "config/example.ini" // INI file to be handled
-        value: {
+        values: {
             "example_key": "example_value"
         },
     },
