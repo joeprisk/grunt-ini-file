@@ -25,11 +25,13 @@ In your project's Gruntfile, add a section named `ini-file` to the data object p
 ```js
 grunt.initConfig({
     "ini-file": {
-        file: "config/example.ini" // INI file to be handled
-        values: {
-            "example_key": "example_value"
-        },
-    },
+        data : {
+            file: "config/example.ini", // INI file to be handled
+            values: {
+                "example_key": "example_value"
+            }
+        }
+    }
 });
 ```
 
