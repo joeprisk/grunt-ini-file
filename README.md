@@ -11,6 +11,19 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 npm install grunt-ini-file --save-dev
 ```
 
+To install this fork add this to your package.json dev dependencies
+```js
+"devDependencies": {
+    "grunt-ini-file": "https://github.com/kernowjoe/grunt-ini-file.git"
+  },
+```
+
+run
+
+```shell
+npm update
+```
+
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
