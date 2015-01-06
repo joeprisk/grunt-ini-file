@@ -38,6 +38,7 @@ module.exports = function(grunt) {
 
 		});
 
+		console.log("print stuff :", keyValues);
 		src = objectToString(keyValues);
 
 		grunt.file.write(file, src);
@@ -71,6 +72,6 @@ module.exports = function(grunt) {
 			}
 		});
 
-		return strings.join("\r\n");
+		return strings.join("\r\n") + "\r\n";
 	}
 };
